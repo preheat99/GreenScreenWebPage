@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Prabhat Amola</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <script src="http://www.dukelearntoprogram.com/course1/common/js/cs101/SimpleImage.js"></script>
+  <body>
+    <h1>Merging two Images</h1>
+    <canvas id="fgcan"></canvas>
+    <canvas id="bgcan"></canvas>
+    <p>
+      <b>Foreground:</b>
+      <input type="file" multiple="false" accept="imgage/*" onchange="loadFgImg()" id="fgfile">
+      <b>Background:</b>
+      <input type="file" multiple="false" accept="image/*" onchange="loadBgImg()" id="bgfile">
+      <p><input type="button" value="Merge" onclick="doGreenScreen()"></p>
+    </p>  
+    <p><input type="button" value="clear canvas" onclick="clear()">
+    </p>
+  </body>  
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
