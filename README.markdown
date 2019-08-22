@@ -1,4 +1,4 @@
 # 
- _A Pen created at CodePen.io. Original URL: [https://codepen.io/preheat99/pen/wvwgvJo](https://codepen.io/preheat99/pen/wvwgvJo).
+This is a Webpage created for applying green-screen algorithm.This webpage is made using HTML,CSS and JavaScript.
 
  
